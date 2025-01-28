@@ -1,4 +1,4 @@
-package cardGame;
+//package cardGame;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -23,6 +23,7 @@ public class CardGame {
 		}
 
 		while(input.hasNext()) {
+			//heart, ace, 11,ah.gif
 			String[] fields  = input.nextLine().split(",");
 			//	public Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
 			Card newCard = new Card(fields[0], fields[1].trim(),
